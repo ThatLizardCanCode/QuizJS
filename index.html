@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="quiz-box">
+        <!-- <h2 id="score">currently broken score : </h2> -->
+
+        <div>
+            <label for="category">Choose you subject</label>
+            <select name="category" id="category">
+                <option>Select</option>
+                <option value= "9">General Knowledge</option>
+                <option value="10">Books</option>
+                <option value="11">Film</option>
+                <option value="12">Music</option>
+                <option value="13">Musical Theater</option>
+                <option value="14">TV</option>
+                <option value="15">Video Games</option>
+                <option value="16">Board Games</option>
+                <option value="17">Nature and Science</option>
+                <option value="18">Computers</option>
+                <option value="19">Mathematics</option>
+            </select>
+        </div>
+
+        <div class="question-box">
+            <h3 id="question-text">question</h3>
+            <div class="answer-box">
+                <ul class="answer">A</ul>
+                <ul class="answer">B</ul>
+                <ul class="answer">C</ul>
+                <ul class="answer" >D</ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js">
+    </script>
+</body>
+</html>

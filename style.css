@@ -1,0 +1,58 @@
+/* 
+#c15c62 - red
+#5c62c1 - green
+#FFC300 - purple 
+*/
+
+body{
+    background-image: url('background.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.quiz-box{
+    color: white;
+    margin: auto;
+    width: 30%;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+.question-box{
+    color: #5256a1;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.answer{
+    color: #5c62c1;
+    border-radius: 5px;
+    border: 2px solid #5c62c1;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.answer:last-child{
+    margin-bottom: 20px;
+}
+
+.answer:hover{
+    background-color: #FFEA00;
+    border: 2px solid #FFEA00;
+    color: white;
+}
+
+.correct{
+    background-color: #37ff00;
+    border: 2px solid #37ff00;
+    color: white;
+}
+
+.incorrect{
+    background-color: #ff2600;
+    border: 2px solid #ff2600;
+    color: white;
+}
